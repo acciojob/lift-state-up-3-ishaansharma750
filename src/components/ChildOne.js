@@ -1,13 +1,12 @@
 import React from "react";
-
-const ChildTwo = (prop) => {
+const ChildOne = (prop) => {
     return (
-        <div className="child-two">
-            {console.log(prop)}
-            <h2>Child Component 2</h2>
-            <button onClick={() => prop.change('Option 2')}>Option 1</button>
+        <div className="child-one">
+            <h2>Child Component 1</h2>
+            <button onClick={() => prop.change('Option 1')}>Option 1</button>
         </div>
     )
 }
 
-export default ChildTwo
+
+export default ChildOne
